@@ -5,6 +5,9 @@
         .auto-style7 {
             height: 23px;
         }
+        .auto-style8 {
+            font-size: xx-large;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
@@ -12,8 +15,8 @@
         <ItemTemplate>
             <table class="auto-style1">
                 <tr>
-                    <td style="text-align: center">
-                        <asp:Label ID="Label3" runat="server" Text='<%# Eval("YemekAd") %>' style="font-size: x-large; font-weight: 700"></asp:Label>
+                    <td style="text-align: center; background-color: #FFFF99">
+                        <asp:Label ID="Label3" runat="server" Text='<%# Eval("YemekAd") %>' style="font-weight: 700" CssClass="auto-style8"></asp:Label>
                     </td>
                 </tr>
                 <tr>
